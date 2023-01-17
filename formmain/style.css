@@ -1,0 +1,87 @@
+.overlay {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  /* visibility: hidden; */
+  /*   opacity: 0은 투명 1은 불투명 */
+  /* opacity: 0; */
+
+}
+
+.overlay.open-modal {
+  visibility: visible;
+  opacity: 1;
+  transition: all 1s;
+}
+
+.login-box {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.alert.id-alert,
+.alert.pw-alert{
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+
+.pw-text,
+.id-text{
+  color: red;
+  font-size: 14px;
+}
+
+
+
+/* .sign {
+  position: relative;
+  top: 25px;
+  width: 80vw;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: white;
+  z-index: 200;
+  visibility: hidden;
+  transition: all 10s ease-in-out;
+}
+
+.sign p {
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.sign button {
+  margin-bottom: 25px;
+}
+
+.sign p, .sign button {
+  margin-left: 25px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  background-color: rgba(63, 65, 80, 0.5);
+  visibility: hidden;
+  transition: all 10s ease-in-out;
+}
+
+.overlay.is-active, .sign.is-active {
+  visibility: visible;
+  transition: visibility 0.5s ease-in-out;
+} */
+
